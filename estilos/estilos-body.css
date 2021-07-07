@@ -1,0 +1,202 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #f8f9fa;
+}
+.navbar{
+	max-height: 7rem;
+	background-color: #F2F2F2;
+}
+
+.botonera a{
+	color:#242614 !important;
+	text-decoration: none;
+	font-size: 1.4rem;
+	margin:2rem;
+}
+
+.loguito img{
+	width:7rem;
+	margin-left:20px
+}
+
+.carritoYuser img{
+	width: 2.5rem;
+	margin-right:1em;
+}
+
+ .elegir{
+	font-size:3.5rem;
+	margin:12rem;
+	width: 40rem;
+}
+
+
+.instrucciones{	
+	height: 22rem;
+	padding:1.5em 3rem;
+}
+
+.instrucciones img{
+	width: 8rem;
+}
+
+.cocinar img{
+	width: 16rem
+}
+
+
+.instrucciones p{
+	font-size: 1.2rem;
+	text-align:center;
+	padding: 0.5em
+}
+
+.comoFunciona{
+	font-size: 4rem;
+	text-align: center;
+	padding:0.6em;
+	}
+.contenedorComoFunciona{
+	max-height: 50rem
+}
+.elegirnos{
+	height: 25rem;
+	margin-bottom: 5rem;
+	margin-top: 5rem
+}
+.miniBanner{
+	background-image: url(../media/fondo3.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0px;
+}
+
+.porQue{
+	font-size:1.5rem;
+	padding: 2em;
+	margin:0px;		
+}
+
+.porQue .grande{
+	font-size:3rem;
+	width: 500px;
+}
+
+button{
+	font-size:1.1rem;
+	border-radius: 5px;
+	border: none;
+	padding: 0.4rem;
+	margin-top-bottom:1rem;
+	}
+
+#linkWpp{
+	height: 20rem;	
+}
+#linkWpp img{
+	width: 200px;
+}
+.habla{
+	font-size: 4rem
+}
+
+#footer{
+	min-height:150px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	text-align:center;
+}
+.cocinamosEn{
+	margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 0.1px solid lightgrey;
+    border-bottom: 0.1px solid lightgrey;
+    padding: 50px;
+}
+.cocinamosEn img{
+	width: 100px
+}
+
+@media (max-width: 700px){
+
+.instrucciones{	
+padding:1.5em 3rem;
+height: 1000px
+}
+
+.instrucciones img{
+	width: 8rem;
+}
+
+.cocinar img{
+	width: 16rem
+}
+
+.instrucciones p{
+	font-size: 1.2rem;
+	text-align:center;
+	padding: 0.5em
+}
+
+.comoFunciona{
+	font-size: 3rem;
+	text-align: center;
+	padding:0.6em;
+	}
+
+#linkWpp{
+	height: 20rem;	
+}
+#linkWpp img{
+	width: 200px;
+}
+.habla{
+	font-size: 4rem
+}
+.elegir{
+	display: none
+}
+
+.elegirnos{
+	height: 25rem;
+	margin-bottom: 5rem;
+	margin-top: 5rem
+}
+.miniBanner{
+	background-image: url(../media/fondo3.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0px;
+}
+
+.porQue{
+	font-size:1.5rem;
+	padding: 2em;
+	margin:0px;
+	
+}
+
+.porQue .grande{
+	width: 10rem;
+	font-size:2rem;
+	background:none;
+	color: #F2F2F2	
+}
+#linkWpp{
+	height: 15rem;	
+	margin-bottom: 5rem
+}
+#linkWpp img{
+	width: 10rem;
+}
+.habla{
+	font-size: 2rem
+}
+
+}

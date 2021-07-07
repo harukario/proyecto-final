@@ -1,0 +1,85 @@
+#planes{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px
+}
+
+#planes p{
+    background-color: #F2F2F2 ;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    width: 45%
+}
+p{
+    padding: 20px
+}
+
+.saludable{
+	height: 400px;
+    width: 250px;
+    background-image: url(https://image.freepik.com/foto-gratis/filete-pollo-limon-tomate-chile-zanahoria-plato-blanco_1150-25887.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 50px;
+    
+}
+.vegetariano{
+	height: 400px;
+    width: 250px;
+    background-image: url(https://image.freepik.com/foto-gratis/tiro-angulo-alto-comida-asiatica-salmon-condimentos_181624-36900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 30px;
+    text-align: center
+}
+
+.decenso{
+	height: 400px;
+    width: 250px;
+    background-image: url(https://image.freepik.com/foto-gratis/salteado-pollo-pimientos-judias-verdes_2829-20110.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 30px;
+    text-align: center
+}
+
+.saludable:hover{
+ transform:scale(1.2);
+ background-image:url("https://i.ibb.co/qgPbR7q/saludable.jpg");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 20px;
+}
+.vegetariano:hover{
+ transform:scale(1.2);
+ background-image:url("https://i.ibb.co/KDzfmfM/vegetariano.jpg");
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position:center;
+ border-radius: 20px;}
+
+.decenso:hover{
+    transform:scale(1.2);
+    background-image:url("https://i.ibb.co/KDzfmfM/vegetariano.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 20px;

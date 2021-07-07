@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;}
+
+.bgColorOscuro{  
+background-color:#242614}
+
+.colorOscuro{
+	color:#242614 
+}
+.bgColorVerde{
+	background-color: #485922;
+}
+.colorVerde{
+	color:#485922;
+}
+.bgColorBlanco{
+	background-color: #F2F2F2 
+}
+.colorBlanco{
+	color:#F2F2F2;
+}
+.bgBBlanco{
+ background-color:#f8f9fa
+}
+.bgColorGris{
+	background-color: #DFDFDF
+}
+.tipoRoboto300{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.tipoRobotoBold{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.tipoOpen300{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300
+}
+.tipoOpenBold{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800
+}
+
+.margin{
+  margin: 1em 5rem
+}
+.animacion{
+	animation-name: animacion;
+	animation-timing-function: ease-in;
+  	animation-duration: 1s;
+   	animation-delay: 0s
+}
+
+@keyframes animacion {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+body{
+	font-size:20px;
+}
+
+@keyframes animacionIcono {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+.animacionIcono{
+	animation-name: animacionIcono;
+	animation-timing-function: ease-in;
+  	animation-duration: 1.3s;
+   	animation-delay: 2s
+}

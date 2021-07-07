@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="estilos/estilos-body.css">
+	<link rel="stylesheet" type="text/css" href="estilos/estilos-contacto.css">
+	<link rel="stylesheet" type="text/css" href="estilos/declaraciones.css">
+	<title>Formulario contacto</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+ 		<a class="navbar-brand loguito " href="index.html">
+ 			<img src="media/logo-añz.png" alt="loguito"></a>
+  		<button class="navbar-toggler bgColorVerde" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   		<span class="navbar-toggler-icon"></span>
+  		</button>
+	  	<div class="collapse navbar-collapse botonera justify-content-center" id="navbarNav">
+	   		<ul class="navbar-nav col-10 justify-content-center">
+		      <li class="">
+		        <a class="nav-link" href="packs.html">Planes <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="empresas.html">Empresas</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="nosotros.html">Nosotros</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link " href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+		      </li>
+		    </ul>
+	  	</div>
+		<div class="carritoYuser"> <a href="#"> 
+		  	<img src="media/carrito.png" alt="carrito"> 
+			<img src="media/user.png" alt="user"></a>
+		</div>
+	</nav>
+
+	<h1 class="bgColorOscuro tipoOpenBold colorBlanco animacion">Contacto</h1>
+	
+<div class="divForm">
+		<form action="recibe.html" method="POST" enctype="multipart/form-data">
+		<input type="text" name="Nombre y apellido" placeholder="Nombre y apellido">
+			<br>
+		<input type="email" name="email" placeholder="nombre@ejemplo.com">
+			<br>
+		<input type="password" name="contraseña"
+		placeholder="Contraseña">
+			<br>
+		<label>Ingresá tu mensaje</label>
+		<br>
+		<textarea rows="5" cols="20"></textarea>
+		<div>Motivo de consulta
+		<select>
+				<option>Plan Saludable</option>
+				<option>Plan Vegetariano</option>
+				<option>Plan Combinado</option>
+		</select>
+		</div>
+		<br>
+		<div>¿Desea recibir ofertas?
+			<input class="input" type="checkbox" name="Si" value="1">
+			</div>
+			<br>
+			<input class="button" type="submit" name="sube_form" value="Enviar formulario"/>
+	    	<input class="button" type="reset" value="Limpiar formulario"/>
+ 	</form>
+ 	
+ </div>	
+
+
+<div class="cocinamosEn tipoOpen300"><img src="https://image.flaticon.com/icons/png/512/3058/3058973.png" alt="cocinar">
+			Cocinamos en el día</div>
+			</div>
+
+		<div id="footer" class="bgColorBlanco colorOscuro tipoRoboto300">
+			<p>Seguinos en nuestras redes</p>
+			<span>Facebook Instagram Whatsapp </span> 
+			<p>República Argentina | Todos los derechos reservados | Política de privacidad | Términos y Condiciones</p></div> 
+		</div>
+<script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>			
+</body>
+</html>
