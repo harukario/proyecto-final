@@ -12,50 +12,55 @@
     font-size: 30px;
     text-align: center;
 }
-
-h1{
+.nuestrosPlanes{
+    border: 3px solid black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.5rem
+}
+h2{
     padding: 10px;
     font-size: 50px;
     text-align: center;
     width: 45%
 }
-p{
-    padding: 20px
-}
 
 .saludable{
-	height: 400px;
-    width: 250px;
+	height: 30rem;
+    width: 30rem;
     background-image: url(https://image.freepik.com/foto-gratis/filete-pollo-limon-tomate-chile-zanahoria-plato-blanco_1150-25887.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin: 50px;
+    margin-bottom: 10rem;
+  
     
 }
 .vegetariano{
-	height: 400px;
-    width: 250px;
+	height: 30rem;
+    width: 30rem;
     background-image: url(https://image.freepik.com/foto-gratis/tiro-angulo-alto-comida-asiatica-salmon-condimentos_181624-36900.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     border-radius: 20px;
-    margin: 50px;
+    margin-bottom: 10rem;
     font-size: 30px;
     text-align: center
 }
 
 .decenso{
-	height: 400px;
-    width: 250px;
+	height: 30rem;
+    width: 30rem;
     background-image: url(https://image.freepik.com/foto-gratis/salteado-pollo-pimientos-judias-verdes_2829-20110.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     border-radius: 20px;
-    margin: 50px;
+    margin-bottom: 10rem;
     font-size: 30px;
     text-align: center
 }
@@ -82,4 +87,4 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
-    border-radius: 20px;
+    border-radius: 20px;}

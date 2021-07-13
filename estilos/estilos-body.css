@@ -41,9 +41,11 @@ body{
 }
 
 .cocinar img{
-	width: 16rem
+	width: 11rem
 }
-
+.reparto img{
+	width: 11rem;
+}
 
 .instrucciones p{
 	font-size: 1.2rem;
@@ -56,6 +58,12 @@ body{
 	text-align: center;
 	padding:0.6em;
 	}
+
+.h1-Index{
+text-align:center;
+margin-bottom: 2rem;
+
+}
 .contenedorComoFunciona{
 	max-height: 50rem
 }
@@ -88,7 +96,7 @@ button{
 	border-radius: 5px;
 	border: none;
 	padding: 0.4rem;
-	margin-top-bottom:1rem;
+	margin:auto 1rem;
 	}
 
 #linkWpp{
@@ -109,18 +117,31 @@ button{
 	text-align:center;
 }
 .cocinamosEn{
-	margin-top: 200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
     align-items: center;
-    border-top: 0.1px solid lightgrey;
-    border-bottom: 0.1px solid lightgrey;
-    padding: 50px;
+    padding: 1rem;
+	font-size:1.5rem
 }
 .cocinamosEn img{
-	width: 100px
+	width: 10rem
 }
+
+.cocinamosEn p{
+	padding: 5rem;
+}
+
+h2{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    width: 45%;
+	margin: 3rem 0;
+}
+
 
 @media (max-width: 700px){
 

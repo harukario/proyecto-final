@@ -1,6 +1,12 @@
-h1{
+h2{
     padding: 10px;
     font-size: 50px;
     text-align: center;
     width: 45%;}
 
+.preguntas{
+    padding: 5rem;
+}
+.preguntas span{
+    font-size: 1.7rem;
+}

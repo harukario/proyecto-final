@@ -2,67 +2,58 @@ body{
 	min-height: 1000px
 }
 
-h1{
-    padding: 10px;
-    font-size: 50px;
-    text-align: center;
-    width: 45%
-}
 
 .Nuestrosplanes{
 	padding: 100px;
 	width: 70%;,
 }
+
 #empresas{
-	min-height: 300px;
-	width: 60%;
+	
+
+	min-height: 30rem;
+	width: 80%;
 	display: grid;
 	grid-template-areas: "img soluciones";
 	grid-template-columns: 50% 50%;
-	margin: auto;
-	margin-top: 100px
+	margin: 5rem auto;
+	
 
 }
 
 .imgEmpresa{
 	grid-area: img;
-	background-image: url(https://static1.abc.es/Media/201501/08/comer-trabajo_xoptimizadax--644x362.jpg);
+	background-image: url('../media/empresa.jpg');
 	background-size: cover
 	
 }
 
 .resolver{
 	grid-area: soluciones;
-	font-size: 25px;
-	padding: 40px
-	}
+	font-size: 2.75rem;
+	padding: 40px;
+	border:3px solid black;
+	border-left: none;
+
+}
 
 .soluciones{
 	font-size: 20px;
 	margin-top:20px;
 	margin-bottom: 20px;
+	color: black;
 }
-.boton{
-	width: 200px;
-	background-color: #F2F2F2;
-	
-}
-.boton:hover{
-background: rgb(73,92,32);
-background: linear-gradient(90deg, rgba(73,92,32,1) 0%, rgba(231,241,240,1) 100%);
 
-}
 .boton a{
-	text-decoration:none;
-	font-size: 20px;
-	text-align:center;
-	padding: 5px;
-	color:#242614;
+	background-color: #485922;
+	font-size: 1.7rem;
+	text-decoration: none;
+	color:white;
+	padding: 10px;
 }
 
-.boton a :hover{
-	
-	
+.boton:hover{
+	transform: scale(1.1);
 }
 
 

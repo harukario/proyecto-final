@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:wght@300;700&display=swap')
 *{
 	margin: 0px;
 	padding: 0px;}
-
+  
+.colorAmarillo{
+  background-color: #edc137;
+}
 .bgColorOscuro{  
 background-color:#242614}
 
@@ -44,7 +48,9 @@ background-color:#242614}
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800
 }
-
+.tipotamañoDefecto{
+  font-size:20px;
+}
 .margin{
   margin: 1em 5rem
 }
@@ -54,7 +60,9 @@ background-color:#242614}
   	animation-duration: 1s;
    	animation-delay: 0s
 }
-
+h3{
+  font-size: 3rem;
+}
 @keyframes animacion {
   0% {
     transform: translateX(-1000px);
